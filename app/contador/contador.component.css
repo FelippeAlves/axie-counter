@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Permanent+Marker&display=swap");
+
+.title-round {
+  color: #ffe9dd;
+  font-family: "Dongle", sans-serif;
+  font-family: "Permanent Marker", cursive;
+}
+
+.number-display {
+  color: #ffe9dd;
+  font-family: "Dongle", sans-serif;
+  font-size: 3rem;
+}
+
+.btn-plus {
+  width: 50px;
+  cursor: pointer;
+}
+
+.btn-minus {
+  width: 38px;
+  cursor: pointer;
+}
+
+.btn-next {
+  font-family: "Permanent Marker", cursive;
+  background-color: #c07f5a;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3);
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.btn-end {
+  font-family: "Permanent Marker", cursive;
+  background-color: #c07f5a;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3);
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+}
