@@ -1,0 +1,30 @@
+<div style="display: flex; justify-content: center;">
+    <h1 class="title-round">
+        Round {{round}}
+    </h1>
+</div>
+<div style="display: flex; justify-content: center;">
+    <div>
+        <div style="display: flex; justify-content: center;">
+            <div style="align-self: center;">
+                <h1 class="number-display">{{ numero }}</h1>
+            </div>
+            <div style="margin-left: 2vw;">
+                <div>
+                    <img src="../../assets/images/add.png" class="btn-plus" (click)="incrementar()">
+                </div>
+                <div style=" margin: 6px;">
+                    <img src="../../assets/images/minus.png" class="btn-minus" (click)="decrementar()">
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; margin-top: 5vh;">
+            <div style="margin-right: 2vw;">
+                <button (click)="next()" class="btn-next">Next round</button>
+            </div>
+            <div>
+                <button (click)="reset()" class="btn-end">End match</button>
+            </div>
+        </div>
+    </div>
+</div>
